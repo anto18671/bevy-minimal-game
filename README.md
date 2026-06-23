@@ -20,7 +20,7 @@ Everything is drawn with simple colored squares — **no external assets, files,
 
 ## Gameplay
 
-<video src="https://github.com/anto18671/bevy-minimal-game/raw/main/assets/gameplay.mp4" controls muted loop width="100%"></video>
+https://github.com/user-attachments/assets/74d53295-a045-461b-98ab-97350ed5efde
 
 > If the player above doesn't load, [watch the clip directly](https://github.com/anto18671/bevy-minimal-game/raw/main/assets/gameplay.mp4).
 
