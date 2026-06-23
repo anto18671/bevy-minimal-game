@@ -1,0 +1,19 @@
+[package]
+name = "zombie-arena"
+version = "0.1.0"
+edition = "2024"
+description = "A polished minimalist 2D survival game built with Rust and Bevy."
+license = "MIT"
+
+[dependencies]
+# Bevy ships a small embedded default font (the `default_font` feature is part
+# of Bevy's default feature set), so the game renders UI text with no assets.
+bevy = "0.19"
+
+# Faster iterative dev builds: light optimisation for our crate, full
+# optimisation for the (rarely-changing) dependencies like Bevy itself.
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3

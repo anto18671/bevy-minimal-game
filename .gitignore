@@ -1,0 +1,7 @@
+/target/
+.agents/
+
+# Raw screen captures are too large for GitHub (100 MB limit); only the
+# compressed gameplay.mp4 is committed.
+assets/*.mp4
+!assets/gameplay.mp4
